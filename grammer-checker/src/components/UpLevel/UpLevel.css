@@ -1,0 +1,240 @@
+.wrapper-section{
+    margin: 0 auto;
+    max-width: 674px;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1080px;
+    position: relative;
+    align-items: center;
+}
+
+.plan-compare-header{
+    font-family: Inter,sans-serif;
+    font-size: 29px;
+    letter-spacing: -.003em;
+    line-height: 38px;
+    color: #0E101A;
+    margin-bottom: 8px;
+}
+
+.title-paragraph{
+    color:#0E101A;
+    text-align:center;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: Inter,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.plan-compare-container{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.plan-summery{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    padding: 0 32px;
+    text-align: start;
+}
+
+.plan-summery-top{
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    margin-bottom: 16px;
+}
+
+.premium-button {
+    margin-top: auto;
+  }
+
+.plan-summery-bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.summery-tag {
+    font-family: Inter,sans-serif;
+    font-size: 11px;
+    letter-spacing: .04em;
+    line-height: 16px;
+    text-transform: uppercase;
+    color:#6D758D;
+    margin-bottom: 4px;
+}
+
+h3{
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    font-family: Inter,sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.box-font-medium{
+    font-size: 15px;
+    line-height: 24px;
+    color: #0E101A;
+}
+
+.current-plan-button{
+    background: #f0f2fc;
+    color: #c6cbde;
+    border-radius: 6px;
+    height: 48px;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Inter,sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    line-height: 32px;
+    position: relative;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+    user-select: none;
+    margin-top: auto;
+    
+}
+
+.button-text{
+    font-family: Inter,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.feature-list-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-inline-start: 0px;
+}
+
+.feature-list-item{
+    list-style-image: url(./checkmark.svg);
+    margin-bottom: 8px;
+    margin-left: 24px;
+}
+
+.feature-list-item:marker{
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+.flex-box{
+    display: flex;
+    position: relative;
+}
+
+.hoverable-target{
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.hoverable-text{
+    position: relative;
+}
+
+.hoverable-text:before{
+    background-image: linear-gradient(90deg,#9fa6bf 33%,transparent 0);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 3px 1px;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+
+.hoverable-target:hover + div{
+    opacity: 1;
+    visibility: visible;
+}
+
+.small-text{
+    line-height: 22px;
+    font-size: 14px;
+    color: #0E101A;
+    font-family: Inter,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.xsmall-text{
+    font-size: 12px;
+    line-height: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.example-card{
+    align-self: baseline;
+    max-width: 392px;
+    opacity: 0;
+    position: absolute;
+    top: 32px;
+    visibility: hidden;
+    will-change: opacity;
+    z-index: 6;
+    left: 0;
+}
+
+
+
+.card-content-wrapper{
+    background: #333954;
+    border-radius: 4px;
+    min-width: 200px;
+    padding: 16px;
+}
+
+.img-demo{
+    background-color: #f9faff;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    width: 360px;
+}
+
+
+@media(max-width: 720px){
+    .plan-compare-container {
+        flex-direction: column;
+    }
+
+    .premium-upgrade-button, .current-plan-button {
+        width: 284px !important;
+
+    }
+
+}

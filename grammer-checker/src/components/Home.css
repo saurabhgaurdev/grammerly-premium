@@ -1,0 +1,28 @@
+.premium{
+    align-self: center;
+    background: transparent;
+}
+
+.premium-link-text{
+    color: #DC9E00;
+    display: flex;
+    position: relative;
+    font-size: small;
+    align-self: flex-en
+}
+
+.premium-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:aliceblue;
+}

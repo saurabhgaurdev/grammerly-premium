@@ -1,0 +1,36 @@
+.header-container{
+    height: 57px;
+    margin-bottom: 18px;
+    display: flex;
+    position: static;
+    top: -100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo-container{
+
+    display: flex;
+    align-items: center;
+    min-width: 150px;
+    width: auto;
+    margin-left: 5px;
+
+}
+.detail-container{
+    align-items: center;
+    display: flex;
+    z-index: 10;
+    margin-right: 5px;
+}
+
+.user-greeting{
+    min-width: 70px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #0e101a;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    text-decoration: none;
+}

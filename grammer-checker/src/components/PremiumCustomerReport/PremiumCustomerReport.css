@@ -1,0 +1,128 @@
+.section-wrapper{
+    background: #f9faff;
+}
+
+.score-result-content{
+    display: flex;
+    padding: 64px 0 104px;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1080px;
+    position: relative;
+}
+
+.report-header{
+    color: #0E101A;
+    font-family: Inter,sans-serif;
+    font-size: 29px;
+    letter-spacing: -.003em;
+    line-height: 38px;
+    margin-bottom: 16px;
+}
+
+.decription-para{
+    color: #0E101A;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: Inter,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 72px;
+}
+
+.score-result{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.score-item{
+    background: transparent;
+    position: relative;
+    text-align: center;
+    width: 320px;
+}
+
+.score-circle{
+    position: relative;
+    text-align: center;
+}
+
+.score-item-score{
+    height: 146px;
+    position: relative;
+    text-align: center;
+    width: 146px;
+}
+
+.svg-container{
+    fill: none;
+    height: 146px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 146px;
+    text-align: center;
+    transform: rotate(-90deg);
+}
+
+.clockwise-circle{
+    stroke-linecap: round;
+    transition: stroke-dashoffset 4s;
+    stroke-dasharray: 534;
+}
+
+.score-item-count{
+    font-weight: 300;
+    line-height: 144px;
+    padding-left: 10px;
+    width: 100%;
+    color: #0e101a;
+    font-family: Inter,sans-serif;
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+}
+
+.large-text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #0E101A;
+    text-align: left;
+    font-family: Inter,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+@media(max-width: 720px){
+    .score-result {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .score-item {
+        background: transparent;
+        position: relative;
+        text-align: center;
+        width: 320px;
+        margin: 40px;
+    }
+    .decription-para {
+        justify-self: center;
+        color: #0E101A;
+        font-size: 18px;
+        line-height: 32px;
+        font-family: Inter,sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        margin-bottom: 0px;
+        align-self: center;
+    }
+}

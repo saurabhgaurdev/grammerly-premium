@@ -1,0 +1,74 @@
+.aim-high-container{	
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: calc(100vh - 80px);
+        justify-content: space-between;
+        min-height: 680px;
+        position: relative;
+        width: 100%;
+        background: no-repeat left -150px top -70px url(./swoosh.png);
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1080px;
+    position: relative;
+}
+.title{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-h1{
+    font-family: Inter,sans-serif;
+    font-size: 42px;
+    letter-spacing: -.005em;
+    line-height: 52px;
+}
+
+.section-content{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    position: relative;
+    max-width: 1080px;
+    margin: 20px;
+    padding: 20px;
+    
+
+}
+
+@media(max-width: 920px){
+    .section-content{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        position: relative;
+        margin: 5px;
+        padding: 10px; 
+    }
+}
+
+@media(max-width: 720px){
+    .section-content{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        position: relative;
+        margin: 5px;
+        padding: 10px; 
+    }
+    .title {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
